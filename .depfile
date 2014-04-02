@@ -1,0 +1,22 @@
+{
+  "name": "jacht",
+  "use_root": "true",
+  "host": "198.199.118.12",
+  "target_dir": "/root/gowrk/src/github.com/clayu/jacht",
+  "cmds": [
+    "git pull origin master",
+    "grunt",
+    "nohup revel run $JACHT &"
+  ],
+  "start": {
+    "dir": "/Users/chris/ciqss/proj/jacht",
+    "hangs": [
+      "revel run $JACHT",
+      "grunt watch"
+    ],
+    "nohangs": [
+      "open http://localhost:9000",
+      "subl ~/proj/jacht"
+    ]
+  }
+}

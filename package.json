@@ -6,9 +6,6 @@
   "directories": {
     "test": "tests"
   },
-  "dependencies": {
-    "grunt": "~0.4.3"
-  },
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-sass": "~0.9.0",
